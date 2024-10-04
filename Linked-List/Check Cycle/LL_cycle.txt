@@ -1,0 +1,21 @@
+Given a linked list, determine if it contains a cycle.
+
+Example Inputs and Outputs:
+
+Input 1: A linked list with nodes 3, 2, 0, and -4, where the last node points back to the second node.
+Output 1: True
+
+Input 2: A linked list with nodes 1 and 2, where the second node points back to the first node.
+Output 2: True
+
+Explanation: A cycle exists in a linked list when a node can be reached again by continuously following the next pointer. In both examples, the last node points back to a previous node, creating a circular structure.
+
+Constraints:
+The linked list can have between 0 and 10^4 nodes.
+The value of each node is in the range of -10^5 to 10^5.
+The parameter pos indicates the index of the node that the last node points to. If pos is -1, there is no cycle.
+
+Input:
+The function should take a single linked list as input.
+The linked list is represented by a ListNode object, where each node has a val attribute storing the node's value and a next attribute pointing to the next node in the list.
+The pos parameter, which indicates the index of the node that the last node points to, is not passed directly to the function.
