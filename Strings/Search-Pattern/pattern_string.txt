@@ -1,0 +1,28 @@
+Given a text string and a pattern string, find all occurrences of the pattern within the text and return their starting indices.
+
+Example Inputs and Outputs:
+
+Input 1: Text: "geeksforgeeks", Pattern: "geek"
+Output 1: 1, 9
+
+Input 2: Text: "abesdu", Pattern: "edu"
+Output 2: -1
+
+Explanation: The function should return a list of indices where the pattern string starts in the text string. If no occurrences are found, the function should return -1.
+
+Constraints:
+The length of the text string is between 1 and 10^6 characters.
+The length of the pattern string is between 1 and the length of the text string, excluding the length of the text string itself.
+Both strings contain only lowercase English letters.
+
+Input: 
+The function should take two strings as input:
+
+Text string: This is the string where you want to search for occurrences of the pattern.
+Pattern string: This is the string you are searching for within the text string.
+
+
+
+
+
+
