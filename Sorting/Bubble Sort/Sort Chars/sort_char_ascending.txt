@@ -1,0 +1,35 @@
+Sorting Characters Using Bubble Sort Algorithm
+
+Given an array of characters, the task is to sort the characters in ascending order using the Bubble Sort algorithm. Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The process is repeated until the entire array is sorted in ascending order.
+
+The goal is to rearrange the characters in such a way that they appear in lexicographically increasing order.
+
+Example Scenarios:
+Example 1:
+
+Input:
+arr = ['d', 'b', 'a', 'c']
+Output:
+['a', 'b', 'c', 'd']
+
+Explanation:
+The array is sorted by comparing and swapping adjacent characters until they are in the correct order.
+
+Example 2:
+
+Input:
+arr = ['z', 'x', 'y']
+Output:
+['x', 'y', 'z']
+
+Explanation:
+The algorithm sorts the array by comparing and swapping the characters to arrange them in ascending order.
+
+Constraints:
+The array size will range between 1 and 1000 characters.
+The array will contain only lowercase English alphabet characters.
+
+Input: 
+The function should take a single array of characters as input.
+This array will contain only lowercase English alphabet characters. The size of the array will range between 1 and 1000 characters.
+
