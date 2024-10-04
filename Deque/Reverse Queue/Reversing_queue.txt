@@ -1,0 +1,22 @@
+Given a queue, reverse the order of its elements.
+
+Example Inputs and Outputs:
+
+Input 1: A queue with elements 4, 3, 1, 10, 2, and 6.
+Output 1: A reversed queue with elements 6, 2, 10, 1, 3, and 4.
+
+Input 2: A queue with elements 4, 3, 2, and 1.
+Output 2: A reversed queue with elements 1, 2, 3, and 4.
+
+Explanation:
+The function should reverse the order of the elements in the queue.
+
+Constraints:
+The queue can have between 1 and 10^5 elements.
+The elements in the queue are between 1 and 10^5.
+
+Input:
+The function should take a single queue as input. The queue is represented by a data structure that supports the following operations:
+
+Enqueue: Adds an element to the back of the queue.
+Dequeue: Removes the element from the front of the queue and returns it.
