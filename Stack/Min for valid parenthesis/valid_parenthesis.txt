@@ -1,0 +1,21 @@
+MINIMUM ADD TO MAKE PARENTHESIS VALID:
+
+Given a string of parentheses, find the minimum number of parentheses that need to be added to make the string valid.
+
+Example Inputs and Outputs:
+
+Input 1: "))"
+Output 1: 2
+
+Explanation: Adding one opening parenthesis and one closing parenthesis to the beginning and end, respectively, makes the string valid.
+
+Input 2: "((("
+Output 2: 3
+
+Explanation: Adding three closing parentheses to the end makes the string valid.
+
+Constraints:
+The input string contains only parentheses characters. The length of the input string is between 1 and 1000 characters, inclusive.
+
+Input: 
+The function should take a single string as input. This string will consist entirely of parentheses characters ('(' and ')'). The string may be empty or contain any valid or invalid combination of parentheses.
