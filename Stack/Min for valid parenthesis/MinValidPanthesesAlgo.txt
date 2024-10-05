@@ -1,0 +1,23 @@
+Algorithm:
+
+1.Initialize Counters:
+Create two integer variables: open and close, both initialized to 0.
+open: This will count unmatched opening parentheses '('.
+close: This will count unmatched closing parentheses ')'.
+
+2.Iterate Through Each Character:
+Loop through each character c in the input string s:
+a.If c is an opening parenthesis '(':Increment the open counter by 1 (open++).
+b.If c is a closing parenthesis ')':
+  Check if there are unmatched opening parentheses:
+    If open > 0:
+    Decrement the open counter by 1 (open--) since this closing parenthesis can match an opening one.
+  Otherwise:
+    Increment the close counter by 1 (close++) because this closing parenthesis is unmatched.
+
+4.Calculate the Result:
+After iterating through all characters, the total number of parentheses that need to be added to make the string valid is:
+result=open+close
+
+5.Return or Print the Result:
+Return or print the calculated result.
