@@ -1,0 +1,37 @@
+You are provided with two strings s and t. Your task is to determine if they are identical when typed into empty text editors, where the character '#' acts as a backspace operation.
+
+Note: If backspacing occurs when there is no character to delete, the text remains empty.
+
+Example 1:
+
+Input:
+s = "xy#z", t = "xz#z"
+Output:
+true
+
+Explanation:
+Both strings transform into "xz".
+
+Example 2:
+
+Input:
+s = "a##", t = "b##"
+Output:
+true
+
+Explanation:
+After applying backspaces, both strings result in an empty string.
+
+Example 3:
+
+Input:
+s = "a#b", t = "x"
+Output:
+false
+
+Explanation:
+After processing, s becomes "b" while t remains "x", hence they are not the same.
+
+Constraints:
+The length of both strings s and t will be at least 1 and at most 200.
+Strings s and t will consist of lowercase alphabetic characters and the '#' symbol.
