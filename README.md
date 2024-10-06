@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/github/license/gdgpce/DSA-Challenges-2024?color=2b9348" alt="License Badge"/>
 </a>
 
-<a hreaf="https://github.com/gdgpce/DSA-Challenges-2024/issues">
+<a href="https://github.com/gdgpce/DSA-Challenges-2024/issues">
   <img src="https://img.shields.io/github/issues/gdgpce/DSA-Challenges-2024?color=pink&logo=github"/>
 </a>
 
