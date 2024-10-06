@@ -1,0 +1,17 @@
+Given the head of a singly linked list, find and return the middle node.
+
+If the list contains an even number of nodes, return the second of the two middle nodes.
+
+Example 1:
+Input: head = [7, 8, 9, 10, 11]
+Output: [9, 10, 11]
+Explanation: The middle node is the one with value 9.
+
+Example 2:
+Input: head = [3, 4, 5, 6, 7, 8]
+Output: [6, 7, 8]
+Explanation: The list has two middle nodes with values 5 and 6, so the second one (node 6) is returned.
+
+Constraints:
+The linked list contains between 1 and 100 nodes.
+Each node's value will be between 1 and 100.
