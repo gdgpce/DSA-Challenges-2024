@@ -1,0 +1,15 @@
+Given the root of a binary tree, determine the tree's greatest depth.
+
+The maximum depth of a binary tree is the count of nodes along the longest route from the root to the deepest leaf.
+
+Example 1:
+Input: root = [5, 12, 25, null, null, 8, 10]
+Output: 3
+
+Example 2:
+Input: root = [2, null, 9]
+Output: 2
+
+Constraints:
+The total number of nodes in the tree will be between 0 and 10^4.
+Each node's value will range from -100 to 100.
