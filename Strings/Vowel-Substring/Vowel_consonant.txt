@@ -1,0 +1,40 @@
+You are provided with a string word and a non-negative integer k. Your objective is to determine how many substrings of word exist that contain all five vowels ('a', 'e', 'i', 'o', and 'u') at least once and exactly k consonants.
+
+Example 1:
+
+Input:
+word = "aeiozz", k = 2
+Output:
+0
+
+Explanation:
+No substring contains every vowel.
+
+Example 2:
+
+Input:
+word = "aeiou", k = 0
+Output:
+1
+
+Explanation:
+The substring "aeiou" contains every vowel and no consonants.
+
+Example 3:
+
+Input:
+word = "uoieaxxuoieaaxx", k = 2
+Output:
+3
+
+Explanation:
+The substrings that contain all the vowels and exactly 2 consonants are:
+
+"uoieax"
+"xuoiea"
+"uoieaa"
+
+Constraints:
+The length of word will be between 5 and 250 characters.
+The string will consist solely of lowercase English letters.
+k will be a non-negative integer between 0 and the length of word minus 5.
