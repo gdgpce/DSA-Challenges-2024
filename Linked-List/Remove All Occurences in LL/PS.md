@@ -1,4 +1,4 @@
-#### Problem: You're given the head of a linked list and a specific integer value val. The task is to remove every node in the linked list that contains the valuevaland return the updated list's head.
+#### Problem: You're given the head of a linked list and a specific integer value val. The task is to remove every node in the linked list that contains the value val and return the updated list's head.
 
 <b>Example 1:</b>
 
@@ -20,5 +20,5 @@ public:
         next = NULL;
     }
 };
-Return the head of the modified linked list, where all nodes with the value val have been removed. If the list becomes empty, return an empty list.
 ```
+Return the head of the modified linked list, where all nodes with the value val have been removed. If the list becomes empty, return an empty list.
