@@ -1,15 +1,15 @@
-### Brute Force Approach
-1. Traverse the entire linked list to identify nodes with target value.
-2. For each node with a matching value, traverse again from the start to remove the node.
-3. Repeat until all nodes with the target value are removed.
+//  Brute Force Approach
+// 1. Traverse the entire linked list to identify nodes with target value.
+// 2. For each node with a matching value, traverse again from the start to remove the node.
+// 3. Repeat until all nodes with the target value are removed.
 
-### Optimal Approach
-1. Create a temp node to handle head node removals.
-2. Use a single traversal to check each node.
-3. Skip over nodes that match the target value by updating the prev->next pointer.
+//  Optimal Approach
+// 1. Create a temp node to handle head node removals.
+// 2. Use a single traversal to check each node.
+// 3. Skip over nodes that match the target value by updating the prev->next pointer.
 
-### Solution:
-```C++
+// Optimal Solution:
+
 #include <iostream>
 using namespace std;
 
@@ -91,6 +91,6 @@ int main() {
 
     return 0;
 }
-```
-<b>Time Complexity</b><br>
-O(n) because entire entire linked list is traversed only once checking the targte value (val).
+
+// Time Complexity:
+// O(n) because entire entire linked list is traversed only once checking the targte value (val).
