@@ -1,0 +1,14 @@
+Given n friends sitting in a circle, where every k-th friend is eliminated in a clockwise direction, find the last friend remaining.
+
+Example Inputs and Outputs:
+
+Input1: n = 5, k = 2
+Output1: 3
+
+Input1: n = 6, k = 5
+Output1: 1
+
+Code Constraints:
+
+1 ≤ n ≤ 500 (Number of friends)
+1 ≤ k ≤ n (Step count to eliminate friend)
