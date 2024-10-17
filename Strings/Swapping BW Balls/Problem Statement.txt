@@ -1,0 +1,25 @@
+Problem: 
+
+You have n balls placed on a table, each of which can either be black or white.
+
+You are given a binary string s of length n in input, where a '1' represents a black ball, and a '0' represents a white ball.
+
+Your task is to move all the black balls to the right side and all the white balls to the left side, and you can only swap two adjacent balls at a time.
+
+Return the minimum number of swaps needed to rearrange the balls in this way.
+
+Example:
+Input:
+s = "100"
+
+Output:
+2 
+
+Explanation:
+To group all the black balls on the right:
+Swap s[0] with s[1], resulting in s = "010".
+Then swap s[1] with s[2], resulting in s = "001". In total, 2 steps are required to group the black balls together.
+
+Constraints:
+1 <= n == s.length <= 100,000
+Each character in the string s is either '0' or '1'.
